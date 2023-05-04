@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <title>best-beaches</title>
+    <style>
+        html{
+            background-color:#F1DFC9 ;
+        }
+        p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    }
+
+    @keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+        .container{
+            height: 400px;
+            display: grid;
+            grid-template-columns: 0.01fr 1fr 1fr 1fr 0.01fr;
+            grid-template-rows: 1fr 1fr;
+            gap:20px;
+            padding: none;
+            margin: none;
+            background-color: #CBDCCB;
+            border-radius: 10%;
+        }
+        .pic{
+            border-radius: 20%;
+            margin-bottom: 5%;
+            margin-top: 5%;
+        }
+       
+        .one{
+            background: url("https://th.bing.com/th/id/OIP.lGi2PYITmgJ2E8qnE7cmwAHaEK?w=304&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7")center / cover;
+            width: 100%;
+            grid-area: 1/2/2/3;
+        }
+        .two{
+            background:url("https://th.bing.com/th?id=OIP.hwm0aoH9GZPUIgslSVWZvwHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2") center/cover;
+            width: 100%;
+            grid-area:1/3/2/4;
+        }
+
+        .three{
+            background:url("https://th.bing.com/th/id/OIP.mUr1_Dpr83uu0LmGw6EGsAHaEK?w=307&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7")center/cover;
+            width:100%;
+            grid-area:1/4/2/5;
+        }
+
+        .four{
+            background:url("https://th.bing.com/th/id/OIP.aiUtBoYd68iWrjayYhXNBQHaEK?w=286&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7") center/cover;
+            width:100%;
+            grid-area:2/2/3/3;
+        }
+
+        .five{
+            background: url("https://th.bing.com/th/id/OIP.lGi2PYITmgJ2E8qnE7cmwAHaEK?w=304&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7")center/cover;
+            width:100%;
+            grid-area:2/3/3/4;
+        }
+
+
+        .six{
+            background : url("https://th.bing.com/th/id/OIP.h1Zkx-bG5VGQJZZkjVNfbwHaEK?w=307&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7")center/cover;
+            width:100%;
+            grid-area:2/4/3/5;
+        }
+    
+        .titlebod{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color:rgb(0, 0, 0);
+
+
+        }
+        .titlebody{
+            font-family: 'PT Serif', serif;
+            color: white;
+            font-style: lighter;
+        }
+
+        .imagee{
+            height:200px;
+            width: 300px;
+            border:#AFD3E2;
+            border-width: 30px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            margin:10px;
+            float:left;
+            border-radius: 25%;
+        }
+
+        p{
+            font-family: 'Crimson Text', serif;
+            text-align: justify;
+        }
+
+        .mbut{
+            height: 20px;
+            margin-top:100px;
+            margin-bottom: 50px;
+            display: flex;
+            clear: both;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .but{
+            height: 40px;
+            width: 140px;
+            background-color: lightblue;
+            border:none;
+            border-radius: 5%;
+            text-align: center;
+            font-size: 15px;
+            transition:0.3s;
+        }
+
+        .but:hover{
+            background-color: darkblue;
+            color:lightblue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="titlebod"><h2 class="titlebody">Beaches Across World</h2></div>
+    <div class="container">
+        <div class="pic one"></div>
+        <div class="pic two"></div>    
+        <div class="pic three"></div>
+        <div class="pic four"></div>
+        <div class="pic five"></div>
+        <div class="pic six"></div>
+    </div>
+    <div class="beach">
+        <h4>1. Benguerra Island, Bazaruto Archipelago, Mozambique</h4>
+        <img class="imagee" src="https://media.cntraveller.com/photos/611bebc7623b149193c8cc02/master/w_1920%2Cc_limit/df16k9.jpg"/>
+        <p>Cast away in the protected Bazaruto Archipelago off the coast of southern Mozambique, Benguerra is a place where sandbars shimmer like nacre and leggy flamingoes pick their way delicately through the channels. A short sail by dhow east of the town of Vilanculos, the fine sand here is fringed by a two-mile-long coral reef, while migrating humpbacks and huge whale sharks pass majestically further offshore. The shot-silk waters are also home to the largest dugong population in the western Indian Ocean, and inland you’ll find congregations of crocodiles and all manner of bird species. But best of all, its marine-reserve status means there’s only a handful of lodges on the island, so once the day-trippers depart, you’ll have the beach all to yourself. Stat at andBeyond Benguerra Island, a classy but unpretentious beach retreat. </p></div>
+
+    <div class="mbut">
+        <a href="https://edition.cnn.com/travel/article/100-best-beaches/index.html#:~:text=100%20best%20beaches%20around%20the%20world%201.%20Grande,warm%20temperatures%20and%20dry-desert...%203.%20Grace%20Bay%2C%20"><button class="but">Click for more</button></a>
+    </div>
+</body>
+</html>
